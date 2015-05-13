@@ -29,28 +29,28 @@ namespace Open_Close
 
     public class Bad
     {
-        //static void Main(string[] args)
-        //{
-        //    //Create your list of shapes
-        //    var shapes = new List<Shape>();
-        //    shapes.Add(new Square()
-        //    {
-        //        itsSide = 1,
-        //        itsTopLeft = new Point() { x = 1, y = 1 },
-        //        itsType = ShapeType.square
-        //    });
-        //    shapes.Add(new Circle()
-        //    {
-        //        itsRadius = 1,
-        //        itsCenter = new Point() { x = 1, y = 1 },
-        //        itsType = ShapeType.circle
-        //    });
+        static void Main(string[] args)
+        {
+            //Create your list of shapes
+            var shapes = new List<Shape>();
+            shapes.Add(new Square()
+            {
+                itsSide = 1,
+                itsTopLeft = new Point() { x = 1, y = 1 },
+                itsType = ShapeType.square
+            });
+            shapes.Add(new Circle()
+            {
+                itsRadius = 1,
+                itsCenter = new Point() { x = 1, y = 1 },
+                itsType = ShapeType.circle
+            });
 
-        //    //Draw all the shapes in your list
-        //    DrawAllShapes(shapes);
+            //Draw all the shapes in your list
+            DrawAllShapes(shapes);
 
-        //    Console.Read();
-        //}
+            Console.Read();
+        }
 
         static void DrawSquare(Square sqaure)
         {
